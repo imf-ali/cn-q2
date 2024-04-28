@@ -1,0 +1,77 @@
+:root{
+  font-family: sans-serif;
+}
+
+main h1{
+  text-align: center;
+}
+
+h1 span{
+  display: inline-block;
+  background-color: #E62429;
+  color: white;
+  width: 150px;
+  margin: 1vh;
+}
+
+#master-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1vh;
+}
+
+#hero-item{
+  width: 25%;
+  padding: 10px;
+  position: relative;
+  height: 50vh;
+  cursor: pointer;
+}
+
+#hero-item img{
+  width: 100%;
+  height: 85%;
+}
+
+#hero-name{
+  background-color: #E62429;
+  color: white;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#favorite-btn{
+  position: absolute;
+  margin: 1vh;
+  right: 1vh;
+  background-color: #151515;
+  color: white;
+  border: none;
+  width: 7vw;
+  border-radius: 10px;
+}
+
+#favorite-btn:hover{
+  color: #E62429;
+}
+
+#search-result{
+  position: absolute;
+  background-color: white;
+  color: #151515;
+  right: 9vw;
+  top: 6vh;
+  width: 16vw;
+  border-radius: 2px;
+  border: 1px solid #151515;
+  z-index: 100;
+  padding: 5px;
+  display: none;
+}
+
+#search-result div{
+  margin: 5px 0;
+  cursor: pointer;
+}
