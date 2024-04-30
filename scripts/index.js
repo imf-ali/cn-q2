@@ -39,7 +39,7 @@ function setMasterList(dataList) {
   heroItemList.forEach((item, index) => {
     item.addEventListener('click', (e) => {
       e.preventDefault();
-      window.location.href= `hero.html?id=${dataList[index].id}`;
+      window.location.href= `template/hero.html?id=${dataList[index].id}`;
     });
   });
 }
